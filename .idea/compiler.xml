@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Annotation profile for itstack-demo-netty-server-domain" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="itstack-demo-netty-server-domain" />
+      </profile>
+      <profile default="false" name="Annotation profile for itstack-demo-netty-server-socket" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="itstack-demo-netty-server-socket" />
+      </profile>
+      <profile default="false" name="Annotation profile for itstack-demo-netty-server-web" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="itstack-demo-netty-server-web" />
+      </profile>
+      <profile default="false" name="Annotation profile for itstack-demo-netty-server-common" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="itstack-demo-netty-server-common" />
+      </profile>
+      <profile default="false" name="Annotation profile for itstack-demo-netty-server-service" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="itstack-demo-netty-server-service" />
+      </profile>
+      <profile default="false" name="Annotation profile for itstack-demo-netty-server-redis" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="itstack-demo-netty-server" target="1.6" />
+      <module name="itstack-demo-netty-server-common" target="1.6" />
+      <module name="itstack-demo-netty-server-domain" target="1.6" />
+      <module name="itstack-demo-netty-server-redis" target="1.6" />
+      <module name="itstack-demo-netty-server-service" target="1.6" />
+      <module name="itstack-demo-netty-server-socket" target="1.6" />
+      <module name="itstack-demo-netty-server-web" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,76 @@
+@charset "utf-8";
+/*===============================
+ * north部分的样式
+ *==============================*/
+.north-back-main {
+	background: url(img/top_back_main.jpg) repeat-x;
+	height:90px;
+}
+
+.north-back-logo {
+	background: url(img/top_back_logo.png) no-repeat left top;
+	height:90px;
+}
+
+.north-tool-wrap {
+	position:absolute;
+	float:right;
+	top:10px;
+	right: 20px;
+}
+
+/*===============================
+ * 信息提示框的样式
+ *==============================*/
+.msgTipSuccess{
+	position:absolute;
+	width:300px;
+	height:20px;
+	padding:10px 10px 10px 50px;
+	background:#eee;
+	border:1px solid #ccc;
+	left:40%;
+	z-index:999999;
+	display:none;
+	background:#FFFDD7 url(img/success.png) no-repeat 10px center;
+}
+.msgTipFail{
+	position:absolute;
+	width:300px;
+	height:20px;
+	padding:10px 10px 10px 50px;
+	background:#eee;
+	border:1px solid #ccc;
+	left:40%;
+	z-index:999999;
+	display:none;
+	background:#FFFDD7 url(img/fail.png) no-repeat 10px center;
+}
+.msgTipAlert{
+	position:absolute;
+	width:300px;
+	height:20px;
+	padding:10px 10px 10px 50px;
+	background:#eee;
+	border:1px solid #ccc;
+	left:40%;
+	z-index:999999;
+	display:none;
+	background:#FFFDD7 url(img/alert.png) no-repeat 10px center;
+}
+
+/*===============================
+ * south部分的样式
+ *==============================*/
+.south-back-main{
+	background: url(img/bottom_bg.jpg) repeat-x top;
+	height:35px;
+}
+
+.south-back-main table{
+	line-height:32px;
+}
+.south-back-main table tr td{
+	padding-left:10px;
+	border:1px solid #dfffef;
+}

@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/**
+ * 公用样式列表
+ * @author ibm
+ */
+.clear {
+	clear: both;
+	font-size: 0;
+	line-height: 0;
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+}
+
+html,body {
+	font-size: 12px;
+	margin: 0px;
+	height: 100%;
+	width: 100%;
+	color: #444444;
+	background-color: transparent
+}
+
+img {
+	border: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #444444;
+}
+
+a:link {
+	color: #444444;
+}

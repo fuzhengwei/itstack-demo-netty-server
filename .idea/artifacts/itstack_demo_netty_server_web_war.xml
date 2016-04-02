@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="itstack-demo-netty-server-web:war">
+    <output-path>$PROJECT_DIR$/itstack-demo-netty-server-web/target</output-path>
+    <root id="archive" name="itstack-demo-netty-server-web.war">
+      <element id="artifact" artifact-name="itstack-demo-netty-server-web:war exploded" />
+    </root>
+  </artifact>
+</component>

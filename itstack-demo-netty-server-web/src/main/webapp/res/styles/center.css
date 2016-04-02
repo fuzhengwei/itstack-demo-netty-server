@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+/**
+ * 页面模版的样式
+ * @author ibm
+ */ /**
+ * Home页样式
+ */
+.home-back-main {
+	padding: 20px;
+	height: 100%;
+}
+
+.remind {
+	float: left;
+	margin: 5px;
+}
+
+.remind .remind-panel {
+	width: 320px;
+	height: 200px;
+	padding: 10px;
+}
+
+/**
+ * 工具栏的样式
+ */
+.toolbar-btn-separator {
+	float: left;
+	height: 24px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #fff;
+	margin: 2px 1px;
+}
+
+.toolbar-btn {
+	height: 28px;
+	background: url("img/panel_title.png") repeat-x scroll 0 0 transparent;
+	padding: 1px 2px;
+	border: 1px solid #8DB2E3;
+	border-bottom: none;
+}
+
+.toolbar-btn a {
+	float: left;
+}
+
+/**
+ * 表单的样式
+ */
+.formButton {
+	text-align: center;
+}
+
+.formButton div {
+	padding-top: 6px;
+}
+
+.formTable {
+	padding: 10px;
+}
+
+.formTable th {
+	font-weight: normal;
+	text-align: right;
+}
+
+.formTable td {
+	padding: 5px;
+}
+
+.formBorderTable {
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+.formBorderTable th,.formBorderTable td {
+	border: 1px solid #B7B7B7;
+}
+
+.formBorderTable th {
+	font-weight: normal;
+	text-align: right;
+}
+
+.formBorderTable td {
+	padding: 5px;
+}
+
+.input {
+	font-size: 12px;
+	border: solid 1px #A7B0B9;
+	height: 18px;
+	background: #FFFFFF url(img/text-bg.gif) repeat-x top;
+	line-height: 18px;
+	width: 160px;
+}
+
+.search_input {
+	font-size: 12px;
+	border: solid 1px #A7B0B9;
+	height: 18px;
+	line-height: 18px;
+	background: #FFFFFF url(img/text-bg.gif) repeat-x top;
+	width: 120px;
+}
+
+.inputSelect {
+	font-size: 12px;
+	border: solid 1px #A7B0B9;
+	height: 24px;
+	background: #FFFFFF url(img/text-bg.gif) repeat-x top;
+	padding: 2px 0px;
+	width: 162px;
+}
+
+textarea {
+	font-size: 12px;
+	border: solid 1px #A7B0B9;
+	background: #FFFFFF url(img/text-bg.gif) repeat-x top;
+	padding-top: 2px;
+}
+
+.queryDivider {
+	font-weight: bold;
+	cursor: pointer;
+	padding-left: 15px;
+}
+
+/**
+ * Datagrid的操作样式
+ */
+.easyList {
+	padding: 5px;
+}
+
+.opBtn img {
+	width: 16px;
+	height: 16px;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: top center;
+	vertical-align: text-bottom;
+}
+
+fieldset {
+	border: solid 1px #A7B0B9;
+	border-style: dashed;
+	padding: 5px;
+}
+
+.legend-div{
+	float:left;
+	height:32px;
+	line-height:32px;
+	background-color: #fff;
+}

@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/**
+ * 登录样式列表
+ * @author ibm
+ */
+
+img{
+	border:0;
+}
+html{
+	overflow:hidden;
+}
+body{
+	font:12px/1.2em "宋体";
+	background:#DEE8F6 url(img/login/bg.png) repeat-x;
+}
+.main{
+	height:580px;
+	position:relative;
+	margin-top:60px;
+}
+.w_{
+	position:relative;
+	width:800px;
+	margin:10px auto;
+	background:#444;
+}
+.logo{
+	position:absolute;
+	top:170px;
+	left:180px;
+	width:137px;
+	height:177px;
+	background:url(img/login/loginleft.jpg) no-repeat ;
+}
+.line{
+	position:absolute;
+	top:60px;
+	left:45%;
+	width:1px;
+	height:330px;
+	background:url(img/login/line.png) no-repeat;
+}
+
+.f_img {
+	background:url("img/login/tit.png") no-repeat scroll 0 0 transparent;
+	height:100px;
+	left:60px;
+	position:absolute;
+	top:0px;
+	width:1000px;
+}
+
+.form{
+	position:absolute;
+	top:180px;
+	left:400px;
+}
+.form_p{
+	font-size:14px;
+	font-weight:bold;
+	margin:10px 0;
+}
+.in{
+	width:200px;
+	height:22px;
+	line-height:22px;
+	border:#ccccca 1px solid;
+	padding-left:5px;
+	background:#444 url(img/login/in_bg.png) repeat-x 0 -34px;
+	font-family:Verdana;
+}
+.c_{
+	margin:20px 0 0 40px;
+	text-align:center;
+}
+.btn{
+	width:90px;
+	height:30px;
+	line-height:30px;
+	background:#444 url(img/login/in_bg.png) no-repeat;
+	border:0;
+	font-weight:bold;
+}
+.copy_ {
+	bottom:100px;
+	color:#4E4F51;
+	font-family:Verdana;
+	position:absolute;
+	text-align:center;
+	width:100%;
+}

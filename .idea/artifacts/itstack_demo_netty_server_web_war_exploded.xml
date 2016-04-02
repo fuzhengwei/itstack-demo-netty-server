@@ -1,0 +1,77 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="itstack-demo-netty-server-web:war exploded">
+    <output-path>$PROJECT_DIR$/itstack-demo-netty-server-web/target/itstack-demo-netty-server-web</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="itstack-demo-netty-server-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="itstack-demo-netty-server-common-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="itstack-demo-netty-server-common" />
+          </element>
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.1" />
+          <element id="library" level="project" name="Maven: cglib:cglib-nodep:2.2" />
+          <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
+          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.9.2" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2" />
+          <element id="archive" name="itstack-demo-netty-server-domain-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="itstack-demo-netty-server-domain" />
+          </element>
+          <element id="archive" name="itstack-demo-netty-server-service-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="itstack-demo-netty-server-service" />
+          </element>
+          <element id="archive" name="itstack-demo-netty-server-socket-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="itstack-demo-netty-server-socket" />
+          </element>
+          <element id="library" level="project" name="Maven: io.netty:netty-all:5.0.0.Alpha1" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.4" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.5" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.2.1" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.2.3" />
+          <element id="library" level="project" name="Maven: commons-dbcp:commons-dbcp:1.4" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.20" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.1.34" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.5.2" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.jr:jackson-jr-all:2.4.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.5.2" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.5.0" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.4" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.4" />
+          <element id="library" level="project" name="Maven: org.apache.ibatis:ibatis-sqlmap:2.3.4.726" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.4" />
+          <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.5" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.0.9" />
+          <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.0.9" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:3.1.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-asm:3.1.1.RELEASE" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.1.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:3.1.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:3.1.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:3.1.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:3.1.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.1.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:3.1.1.RELEASE" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aspects:3.1.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.1.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:3.1.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.1.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:3.1.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.6.12" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.6.12" />
+          <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.5.4" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-redis:1.0.2.RELEASE" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.6.6" />
+          <element id="library" level="project" name="Maven: redis.clients:jedis:2.1.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/itstack-demo-netty-server-web/target/itstack-demo-netty-server-web/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="itstack-demo-netty-server-web/web/Web" />
+    </root>
+  </artifact>
+</component>

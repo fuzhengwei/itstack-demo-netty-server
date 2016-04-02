@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/itstack-demo-netty-server.iml" filepath="$PROJECT_DIR$/itstack-demo-netty-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itstack-demo-netty-server-common/itstack-demo-netty-server-common.iml" filepath="$PROJECT_DIR$/itstack-demo-netty-server-common/itstack-demo-netty-server-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itstack-demo-netty-server-domain/itstack-demo-netty-server-domain.iml" filepath="$PROJECT_DIR$/itstack-demo-netty-server-domain/itstack-demo-netty-server-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itstack-demo-netty-server-service/itstack-demo-netty-server-service.iml" filepath="$PROJECT_DIR$/itstack-demo-netty-server-service/itstack-demo-netty-server-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itstack-demo-netty-server-socket/itstack-demo-netty-server-socket.iml" filepath="$PROJECT_DIR$/itstack-demo-netty-server-socket/itstack-demo-netty-server-socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itstack-demo-netty-server-web/itstack-demo-netty-server-web.iml" filepath="$PROJECT_DIR$/itstack-demo-netty-server-web/itstack-demo-netty-server-web.iml" />
+    </modules>
+  </component>
+</project>
